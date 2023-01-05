@@ -1,0 +1,135 @@
+.warning {
+    border: solid red 1px;
+    border-radius: 0.2em;
+    
+  }
+  
+  .danger {
+    font-size: 10px;
+    color: red;
+    margin-left: 10em;
+    margin-top: 15px;
+    margin-bottom:10px ;
+  }
+
+
+  .ContainerForm { 
+    border: 5px solid red;
+    margin: 50px 500px 0 500px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background:linear-gradient(to bottom,#9336be , #8856d8); 
+    
+    box-shadow: -1px 4px 1px 1px #4d1249;
+    user-select: none;
+    border: 2px solid rgb(93, 2, 129);
+  }
+  .user { 
+    margin-bottom: 15px;
+  }
+
+  .Container { 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .ContainerForm button { 
+    color: rgb(184, 91, 160);
+    background-color: rgb(100, 12, 134);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 95px;
+  
+}
+.ContainerForm button:hover { 
+    opacity: 0.8;
+    background:linear-gradient(to bottom,#ff54cc , #8856d8); 
+    color: #4d1249;
+}
+
+
+/*/////////////////////////////////////// DARK /////////////////////////////////*/
+
+
+.ContainerFormDark { 
+  border: 5px solid red;
+  margin: 50px 500px 0 500px;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background:linear-gradient(to bottom,#2b242e , #211d25); 
+  background:linear-gradient(to bottom,#070707 , #1a1622); 
+  box-shadow: -1px 4px 1px 1px #39ff14;
+  user-select: none;
+  border: 2px solid #39ff14;
+}
+
+
+.ContainerFormDark button { 
+  color: rgb(0, 0, 0);
+  background-color:#39ff14;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  width: 95px;
+  /* margin-top: 38px; */
+}
+.ContainerFormDark button:hover { 
+  opacity: 0.7;
+
+}
+
+
+.ContainerFormDark label { 
+  color: rgb(221, 206, 187);
+}
+ 
+
+.ContainerFormDark input { 
+  background-color: rgb(224, 212, 196);
+}
+
+
+
+
+ @media screen and (max-width: 485px) {
+
+  .ContainerForm { 
+    margin: 50px 500px 0 500px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .ContainerForm button { 
+    font-size: 10px;
+    width: 75px;
+    height: 30px;
+}
+
+.ContainerFormDark { 
+  margin: 50px 500px 0 500px;
+  width: 200px;
+  height: 200px;
+}
+
+.ContainerFormDark button { 
+  font-size: 10px;
+  width: 75px;
+  height: 30px;
+}
+
+
+} 

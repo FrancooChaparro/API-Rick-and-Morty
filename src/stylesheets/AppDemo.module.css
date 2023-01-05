@@ -1,0 +1,20 @@
+.App {
+    text-align: center;
+    background-image: url(https://images3.alphacoders.com/812/812062.png);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 800px;
+ }
+ 
+ .AppDark {
+    text-align: center;
+    background-image: url(https://fondosmil.com/fondo/27353.png);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 800px;
+ }
+ 

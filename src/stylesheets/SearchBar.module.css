@@ -1,0 +1,163 @@
+.containerBar { 
+    margin-bottom: 30px;
+    user-select: none;
+}
+
+.SearchBar { 
+    width: 450px;
+    min-width: 250px;
+    height: 40px;
+    margin: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.buttonADD { 
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46) ;
+    color: white;
+    user-select: none;
+
+}
+
+.buttonADD:hover { 
+    opacity: 0.9;
+ }
+
+
+ /*/////////////////////////////////////// DARK /////////////////////////////////*/
+
+
+ .SearchBarDark { 
+    width: 450px;
+    min-width: 250px;
+    height: 40px;
+    margin: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(230, 211, 211);
+    font-size: 18px;
+}
+
+
+.buttonADDDark { 
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(230, 146, 36) ;
+    color: white;
+    user-select: none;
+
+}
+
+.buttonADDDark:hover { 
+    opacity: 0.9;
+ }
+
+
+
+
+
+ 
+  @media screen and (max-width: 750px)  {
+
+    .SearchBar { 
+        width: 400px;
+        min-width: 250px;
+        height: 40px;
+    }
+        
+    .SearchBarDark { 
+        width: 400px;
+        min-width: 250px;
+        height: 40px;
+    }
+    
+    
+ } 
+
+
+  @media screen and (max-width: 626px) {
+    .SearchBar { 
+        width: 370px;      
+    }
+        
+    .SearchBarDark { 
+        width: 370px;
+    }
+  }
+
+  @media screen and (max-width: 596px) {
+    .SearchBar { 
+        width: 300px;
+    }
+        
+    .SearchBarDark { 
+        width: 300px;
+    }
+  }    
+
+  
+
+  @media screen and (max-width: 526px) {
+    .SearchBar { 
+        width: 250px;
+    }    
+    .SearchBarDark { 
+        width: 250px;
+    }
+  }
+
+ @media screen and (max-width: 485px) { 
+
+    .SearchBar { 
+        width: 150px;
+        height: 28px;
+        margin: 5px;
+    }
+    
+    .buttonADD { 
+        width: 80px;
+        height: 28px;
+        margin: 5px;
+        background-color: rgb(255, 6, 46) ;
+    
+    }
+    .SearchBarDark { 
+        width: 150px;
+        height: 28px;
+        margin: 5px;
+    }
+    
+    .buttonADDDark { 
+        width: 80px;
+        height: 28px;
+        margin: 5px;
+    }   
+ }
+ @media screen and (max-width: 406px) { 
+    .SearchBar { 
+        width: 20px;
+    }
+        
+    .SearchBarDark { 
+        width: 20px;
+    }
+
+ }

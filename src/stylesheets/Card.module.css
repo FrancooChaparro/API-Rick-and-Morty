@@ -1,0 +1,370 @@
+
+.card { 
+    background:linear-gradient(to bottom,#9336be , #8856d8);
+    border: 2px solid #4d1249;
+    border-radius: 10px;
+    box-shadow: -1px 4px 1px 1px #4d1249;
+    width: 250px;
+    height: 410px;
+    user-select: none;
+    /* height: 250px; */
+    transition: all 0.7s;
+    margin: 15px;
+    padding: 15px;
+}
+.card:hover { 
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.8s;
+    
+}
+
+.card img { 
+    width: 95%;
+    border-radius: 12px;
+    height: 200px;
+}
+
+.containerButton { 
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 5px 0 0;
+}
+
+.button { 
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 45px;
+}
+
+.button:hover { 
+    opacity: 0.8;
+}
+
+.data {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.card h2 { 
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 26px;
+    height: 70px;
+
+}
+
+.data h2 { 
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 22px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+
+
+/*/////////////////////////////////////// DARK /////////////////////////////////*/
+.cardDark { 
+   
+    background:linear-gradient(to bottom,#000000 , #2f1e49);
+    border: 2px solid  #39ff14 ;
+    border-radius: 10px;
+    box-shadow: -1px 4px 1px 1px  #39ff14 ;
+    width: 250px;
+    height: 410px;
+    user-select: none;
+    /* height: 250px; */
+    transition: all 0.7s;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+.cardDark:hover { 
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.8s;
+    
+}
+.cardDark img { 
+    width: 95%;
+    border-radius: 12px;
+    height: 200px;
+}
+
+
+.buttonDark { 
+    color: white;
+    background-color:  #39ff14 ;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 45px;
+}
+
+.buttonDark:hover { 
+    opacity: 0.8;
+}
+
+.dataDark {
+    display: flex;
+    justify-content: space-evenly; 
+}
+.cardDark h2 { 
+    color:  #39ff14 ;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 26px;
+    height: 70px;
+
+}
+.dataDark h1 { 
+    color: #ffffff ;
+  
+}
+
+.dataDark h2 { 
+    color: #39ff14 ;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 22px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 820px)  {
+    .card { 
+        width: 200px;
+        height: 350px;
+        transition: all 0.7s;
+        margin: 15px;
+        padding: 15px;
+        margin-left: 80px;
+    }
+    .card img { 
+        width: 95%;
+        border-radius: 12px;
+        height: 180px;
+    }
+    
+    .card h2 { 
+        font-size: 22px;
+        height: 50px;
+    }
+    
+    .data h2 { 
+        font-size: 22px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    .cardDark { 
+        width: 200px;
+        height: 350px;
+        transition: all 0.7s;
+        margin: 15px;
+        padding: 15px;
+        margin-left: 40px;
+    }
+
+    .cardDark img { 
+        width: 95%;
+        border-radius: 12px;
+        height: 180px;
+    }
+    
+    .cardDark h2 { 
+        font-size: 22px;
+        height: 50px;
+    }
+    
+    .dataDark h2 { 
+        font-size: 22px;
+        height: 50px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 750px)  {
+    .card { 
+        margin-left: 49px;
+    }
+
+    .cardDark { 
+        margin-left: 49px;
+    }
+
+} 
+
+@media screen and (max-width: 692px)  {
+    .card { 
+        margin-left: 29px;
+    }
+
+    .cardDark { 
+        margin-left: 29px;
+    }
+
+} 
+
+
+@media screen and (max-width: 630px)  {
+    .card { 
+        margin-left: 17px;
+    }
+
+    .cardDark { 
+        margin-left: 18px;
+    }
+
+
+} 
+
+@media screen and (max-width: 615px)  {
+    .card { 
+        margin-left: 12px;
+    }
+
+    .cardDark { 
+        margin-left: 12px;
+    }
+
+} 
+
+@media screen and (max-width: 596px)  {
+    .card { 
+        margin-left: 4px;
+    }
+
+    .cardDark { 
+        margin-left: 4px;
+    }
+
+} 
+
+
+@media screen and (max-width: 580px)  {
+    .card { 
+        width: 150px;
+        height: 280px;
+        transition: all 0.7s;
+        margin: 10px;
+        padding: 10px;
+        margin-left: 45px;
+    }
+
+    .card img { 
+        width: 95%;
+        border-radius: 12px;
+        height: 120px;
+    }
+    
+    .card h2 { 
+        font-size: 15px;
+        height: 30px;
+    }
+    
+    .data h2 { 
+        font-size: 15px;
+        height: 30px;
+        margin-top: 19px;
+    }
+    
+    .cardDark { 
+        width: 150px;
+        height: 280px;
+        transition: all 0.7s;
+        margin: 10px;
+        padding: 10px;
+        margin-left: 45px;
+    
+    }
+
+    .cardDark img { 
+        width: 95%;
+        border-radius: 12px;
+        height: 120px;
+    }
+    
+    .cardDark h2 { 
+        font-size: 15px;
+        height: 30px;
+    }
+    
+    .dataDark h2 { 
+        font-size: 15px;
+        height: 30px;
+        margin-top: 19px;
+    }
+  
+} 
+
+@media screen and (max-width: 529px) {
+    .card { 
+        margin-left: 30px;
+    }
+    .cardDark { 
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 485px) {
+
+
+    .card { 
+        width: 200px;
+        height: 350px;
+        transition: all 0.7s;
+        margin: 15px;
+        padding: 15px;
+        margin-left: 40px;
+    }
+
+    .card img { 
+        width: 95%;
+        border-radius: 12px;
+        height: 180px;
+    }
+    
+    .card h2 { 
+        font-size: 22px;
+        height: 50px;
+    }
+    
+    .data h2 { 
+        font-size: 22px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .cardDark { 
+        width: 200px;
+        height: 350px;
+        transition: all 0.7s;
+        margin: 15px;
+        padding: 15px;
+        margin-left: 40px;
+    }
+
+    .cardDark img { 
+        width: 95%;
+        border-radius: 12px;
+        height: 180px;
+    }
+    
+    .cardDark h2 { 
+        font-size: 22px;
+        height: 50px;
+    }
+    
+    .dataDark h2 { 
+        font-size: 22px;
+        height: 50px;
+        margin-top: 20px;
+    }
+  
+  } 
