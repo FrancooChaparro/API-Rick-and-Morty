@@ -2,19 +2,24 @@
     user-select: none;
     min-height: 100vh;
     margin-bottom: 15px;
+    margin-top: -70px;
 }
 
 .AboutDark {
     user-select: none;
     min-height: 100vh;
     margin-bottom: 15px;
+    margin-top: -70px;
 }
 
 .AboutDark > h1 { 
     color: #39ff14;
+   
 }
+
 
 
 .AboutDark > p { 
     color: #39ff14;
+   
 }

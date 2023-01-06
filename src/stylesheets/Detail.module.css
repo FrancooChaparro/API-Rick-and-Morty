@@ -9,6 +9,8 @@
     user-select: none;
     width: 350px;
     height: 540px;
+    /* min-height: 100vh; */
+    margin-bottom: 100px; 
 }
 
 .ContainerDetails button { 
@@ -55,6 +57,7 @@
     user-select: none;
     width: 350px;
     height: 540px;
+    margin-bottom: 150px; 
 }
 
 .ContainerDetailsDark button { 

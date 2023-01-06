@@ -12,10 +12,8 @@
     color: rgb(81, 28, 124);
     padding-top: 20px;
     padding-bottom: 10px;
-    /* border: 3px solid red; */
     margin-left: -26px;
-    align-self: flex-end;
-    /* bottom: -200px; */
+    align-self: flex-end; 
     border-top: 0.5px solid rgb(233, 46, 240);;
 }
 
@@ -32,8 +30,9 @@
 
 .tituloFooter {
     margin-top: 15px;
+    margin-left: 1px;
     font-size: 16px;
-    margin-left: 15px;
+    user-select: none;
     color: rgb(81, 28, 124);
     font-family: 'LatoBlack';
     font-size: 14px;
@@ -79,11 +78,13 @@
 
 .tituloFooterDark {
     margin-top: 15px;
+    margin-left: 0.5px;
     font-size: 16px;
-    margin-left: 15px;
+    margin-left: 1px;
     color: #2b6121;
     font-family: 'LatoBlack';
     font-size: 14px;
+    user-select: none;
 }
 
 .DivIconsDark { 

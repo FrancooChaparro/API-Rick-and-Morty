@@ -32,22 +32,12 @@ export default function Nav(props) {
     dispatch(onSearch(Math.ceil(Math.random() * 826)))
   }
 
-  // const classN = (lo ,DarkMode) => { 
-  //   lo = Location.pathname
-  //   if(Location.pathname === "/About" && DarkMode == false){ 
-  //     style.NavAbout} else { 
-  //        style.NavAboutDark 
-  //   }if (Location.pathname === "/Home" && DarkMode == false){ 
-  //     style.Nav} else { 
-  //       style.NavDark
-  //   }
-  // }
 
   return (
     <div className={style.containerAll_Nav}>
       
 
- <div className={(Location.pathname !== "/About" && DarkMode) ? style.Nav : style.NavDark}> 
+ <div className={DarkMode ? style.Nav : style.NavDark}> 
 
 
   {/* // ||         (Location.pathname === "/Home" && DarkMode == true) ? style.Nav : style.NavDark}>  */}
@@ -60,7 +50,7 @@ export default function Nav(props) {
         <NavLink to="/About">
           <button className={ DarkMode ? style.buttonNav : style.buttonNavDark}>About</button>
         </NavLink>
-        <button className={ DarkMode ? style.buttonNav : style.buttonNavDark} onClick={(e) => azar(e)}>Azar</button>
+        {!(Location.pathname === "/About") &&  <button className={ DarkMode ? style.buttonNav : style.buttonNavDark} onClick={(e) => azar(e)}>Azar</button>}
         {!(Location.pathname === "/About") && <SearchBar />}
       </div>
     </div>

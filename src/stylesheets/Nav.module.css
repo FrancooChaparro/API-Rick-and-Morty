@@ -4,8 +4,9 @@
      background-color: rgb(180, 154, 154);
      width: 850px;
      border-radius: 14px;
-     height: 105px;
      background:linear-gradient(to bottom,#9336be , #8856d8);
+     height: 20px;
+
  
 }
 
@@ -19,6 +20,7 @@
      border-radius: 14px;
      height: 55px;
      background:linear-gradient(to bottom,#9336be , #8856d8);
+     
 }
 
 .containerAll_Nav { 
@@ -50,21 +52,24 @@
      margin-left: 10px;
      margin-right: 10px;
      width: 850px;
-     border-radius: 14px;
-     height: 105px;
+     border-radius: 0px;
+     border-radius: 20px 20px 0px 0px;
+     height: 50px;
      background:linear-gradient(to bottom,#9336be , #8856d8);
+     margin-bottom: 85px;
  
 }
 .NavDark {
      margin-left: 10px;
      margin-right: 10px;
-     /* margin-bottom: 95px; */
+     margin-bottom: 95px;
      width: 850px;
-     border-radius: 14px;
+     border-radius: 20px 20px 0px 0px;
      height: 105px;
+     height: 50px;
      background:linear-gradient(to bottom,#000000 , #1a1520);
-     /* position: fixed;
-     top: 0px; */
+     margin-bottom: 85px;
+
  
 }
 .buttonNavDark { 

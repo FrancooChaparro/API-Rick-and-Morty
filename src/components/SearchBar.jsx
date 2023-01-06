@@ -34,7 +34,7 @@ function SearchBar() {
    }
 
    return (
-      <div className={styles.containerBar}>
+      <div className={DarkMode ? styles.containerBar : styles.containerBarDark}>
          <input  name="Enter" onKeyPress={(e) => handleEnter(e)} value={character} className={DarkMode ? styles.SearchBar : styles.SearchBarDark} onChange={characterID} type='text' />
          <button type="submit" className={DarkMode ? styles.buttonADD : styles.buttonADDDark} onClick={(e) => handleSearch(e)}>Agregar</button>
       </div>
