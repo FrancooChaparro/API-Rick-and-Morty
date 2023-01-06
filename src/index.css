@@ -1,5 +1,7 @@
 body {
   margin: 0 ;
+  padding: 0;
+
   overflow-y: scroll;
   min-height: 800px;
   scroll-behavior: smooth;
@@ -14,6 +16,9 @@ body {
   background-attachment: fixed;
   background-position: center; */
   /* background-repeat: no-repeat; */
+  /* background-color: brown;
+  margin-left: -28px */
+  
 }
 
 code {

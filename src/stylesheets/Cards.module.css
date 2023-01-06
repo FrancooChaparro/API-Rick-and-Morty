@@ -6,6 +6,8 @@
     flex-wrap: wrap;
     margin-left: 15px;     
     width: 1350px;
+    min-height: 100vh;
+    margin-bottom: 15px;
  
 }
 

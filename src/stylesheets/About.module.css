@@ -1,9 +1,13 @@
 .About { 
     user-select: none;
+    min-height: 100vh;
+    margin-bottom: 15px;
 }
 
 .AboutDark {
     user-select: none;
+    min-height: 100vh;
+    margin-bottom: 15px;
 }
 
 .AboutDark > h1 { 
