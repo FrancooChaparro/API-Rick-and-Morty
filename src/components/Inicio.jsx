@@ -51,13 +51,13 @@ export const Inicio = ( {login }) => {
       <div className={styles.user}>
         <label name='username'>Username:</label><br />
         <input type="text" name='username'  className={errors.name && styles.warning} value={userData.username} onChange={(e) => handleInputChange(e)}/><br />
-        <p  className={styles.danger}>{errors.name && errors.name}</p>
+        <span  className={styles.danger}>{errors.name && errors.name}</span>
         </div>
       <div className={styles.pass}>
         <label name='password'>Password:</label><br />
-        <input type="password" name='password' className={errors.password && styles.warning}   value={userData.password}  onChange={(e) => handleInputChange(e)}/><br />
-        <p className={styles.danger}>{errors.password && errors.password}</p>
-        </div>
+        <input type="password" name='password' className={errors.password && styles.warning}   value={userData.password}  onChange={(e) => handleInputChange(e)}/><br /> 
+        <span className={styles.danger}>{errors.password && errors.password}</span>
+        </div >
         <button type='submit' >LOGIN</button>
      </form>     
     </div>
@@ -65,5 +65,6 @@ export const Inicio = ( {login }) => {
          </div>
     )
 }
+
 
 

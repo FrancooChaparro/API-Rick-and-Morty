@@ -2,6 +2,8 @@ import Card from './Card';
 import styles from "../stylesheets/Cards.module.css"
 import {useSelector} from "react-redux"
 import { useState } from 'react';
+// import { Paginate } from './Paginate';
+
 
 
 export default function Cards() {
@@ -33,6 +35,7 @@ export default function Cards() {
 
     // personajes.splice(((pagina*4)),1).length == 0
     return (
+      
          <div className={styles.containerImg}>
                  {
          
@@ -50,10 +53,12 @@ export default function Cards() {
               <button className={ DarkMode ? styles.buttonPag : styles.buttonPagDark} onClick={()=> prev()}  disabled={pagina === 1}>PREV PAGE</button>
               <span>{pagina}</span>                           
               <button className={ DarkMode ? styles.buttonPag : styles.buttonPagDark} onClick={() => next()} disabled={pagina == Math.ceil(personajes.length / 4) || personajes.length === 0 }>NEXT PAGE</button>
-             
-          </div>
-
+              
+            </div>
          </div>
+
+            
+
     )
 
 }

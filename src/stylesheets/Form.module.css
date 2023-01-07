@@ -5,13 +5,18 @@
   }
   
   .danger {
-    font-size: 10px;
+    font-size: 12px;
     color: red;
-    margin-left: 10em;
+    margin-left: 5em;
     margin-top: 15px;
     margin-bottom:10px ;
   }
-  
+  .pass { 
+    margin-top: -10px;
+  }
+  .user { 
+    margin-top: -15px;
+  }
 
   .ContainerForm { 
     border: 5px solid red;
@@ -24,15 +29,12 @@
     border-radius: 10px;
     background:linear-gradient(to bottom,#9336be , #8856d8); 
     margin-bottom: 450px;
-    
     box-shadow: -1px 4px 1px 1px #4d1249;
     user-select: none;
     border: 2px solid rgb(93, 2, 129);
  
   }
-  .user { 
-    margin-bottom: 15px;
-  }
+  
 
   .Container { 
     align-items: center;
@@ -52,6 +54,8 @@
     font-weight: bold;
     font-size: 25px;
     width: 95px;
+    margin-top: 15px;
+    /* margin-top: 800px; */
   
 }
 .ContainerForm button:hover { 
@@ -91,7 +95,8 @@
   font-weight: bold;
   font-size: 25px;
   width: 95px;
-  /* margin-top: 38px; */
+  margin-top: 15px;
+
 }
 .ContainerFormDark button:hover { 
   opacity: 0.7;
