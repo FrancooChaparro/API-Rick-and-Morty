@@ -11,6 +11,7 @@
     transition: all 0.7s;
     margin: 15px;
     padding: 15px;
+    /* margin-bottom: -50px; */
 }
 .card:hover { 
     -webkit-transform: scale(1.05);

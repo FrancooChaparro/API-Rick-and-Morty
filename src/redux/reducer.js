@@ -14,7 +14,7 @@ window.localStorage.setItem("Personajes", JSON.stringify(initialState.characters
 
 const valid = (state, action) => {
   if (action.name) { 
-    console.log(state);
+   
       let actiontype = action;
       let ids = state.map(e => e.id)
       if (!ids.includes(parseInt(actiontype.id)) || ids.length == 0) {
@@ -41,14 +41,14 @@ const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     
     case "GET_CHARACTERS":
-      console.log(state.characters);
+      
       window.localStorage.removeItem("personajes")
       window.localStorage.setItem("Personajes", JSON.stringify(state.characters))
      
       return {
         ...state,
         characters: valid(state.characters, action.payload),
-        log : console.log("log", state.characters)
+        // log : console.log("log", state.characters)
       }; 
         
     case DELETE_CHARACTER:

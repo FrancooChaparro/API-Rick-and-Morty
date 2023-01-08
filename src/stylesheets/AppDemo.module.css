@@ -16,6 +16,6 @@
     height: 100%;
     background-attachment: fixed;
     background-position: center;
-    min-height: 800px;
+    /* min-height: 100vh; */
  }
  

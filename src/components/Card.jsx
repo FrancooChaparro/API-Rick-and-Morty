@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { onClose } from '../redux/actions';
 import { useDispatch, useSelector} from "react-redux";
 
-export default function Card({ name, species, gender, image, id }) {
+export default function Card({ name, species, gender, image, id, prev, personajes, pagina }) {
    let DarkMode = useSelector((state) => state.dark) 
 
 
@@ -13,9 +13,14 @@ export default function Card({ name, species, gender, image, id }) {
    }
 
    const dispatch = useDispatch();
+   
    const handleClick=()=>{
-      dispatch(onClose(id))
-  }
+      if ((personajes.length-1) % 4 == 0 && pagina != 1) { 
+         
+         prev();
+      }
+      dispatch(onClose(id));
+   }
 
 
    return (

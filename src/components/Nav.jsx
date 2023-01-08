@@ -7,7 +7,7 @@ import { onSearch, Oscuro } from "../redux/actions";
 
 export default function Nav(props) {
   let DarkMode = useSelector((state) => state.dark) 
-  console.log("state", DarkMode);
+
   const dispatch = useDispatch();
   const Location = useLocation()
   

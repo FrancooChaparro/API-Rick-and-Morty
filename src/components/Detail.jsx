@@ -32,12 +32,12 @@ useEffect(() => {
       </Link>
     </div>
     <div className={styles.ContainerInfo}>
-      
-      <h1>ID : {cruiseDetail.id}</h1>
-      <h1>Name : {cruiseDetail.name}</h1>
-      <h1>Status : {cruiseDetail.status}</h1>
-      <h1>Species : {cruiseDetail.species}</h1>
-      <h1>Gender : {cruiseDetail.gender}</h1>
+   
+      <h1>ID :  <small> {cruiseDetail.id} </small></h1>
+      <h1>Name : <small>{cruiseDetail.name} </small></h1>
+      <h1>Status : <small>{cruiseDetail.status} </small></h1>
+      <h1>Species : <small>{cruiseDetail.species} </small></h1>
+      <h1>Gender :<small> {cruiseDetail.gender} </small></h1>
     </div>
     <div className={styles.ContainerImage}>
       <img src={cruiseDetail.image} alt="" />
