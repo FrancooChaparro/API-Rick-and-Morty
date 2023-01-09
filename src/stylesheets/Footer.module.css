@@ -12,7 +12,7 @@
     color: rgb(81, 28, 124);
     padding-top: 20px;
     padding-bottom: 10px;
-    margin-left: -26px;
+    margin-left: -24.8px;
     /* margin-top: 500px; */
     align-self: flex-end; 
     border-top: 0.5px solid rgb(233, 46, 240);;
@@ -91,3 +91,11 @@
 .DivIconsDark { 
     background-color: none;
 }
+
+@media screen and (max-width: 659px) {
+    .Footer { 
+        margin-left: -25px;     
+     
+    }
+
+  }

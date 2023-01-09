@@ -17,3 +17,11 @@
    background-position: center;
    min-height: 800px;
 }
+
+
+/* @media screen and (max-width: 659px) {
+   .App { 
+       background-color: red;
+   }
+
+ } */

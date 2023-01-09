@@ -101,16 +101,147 @@
 }
 
 
+@media screen and (max-width: 900px) { 
+     .Nav {
+          width: 650px;
+          height: 40px;
+     }
+     .NavAbout { 
+          width: 350px;
+          height: 55px;    
+     }
+     
+     .buttonNav { 
+          width: 70px;
+          height: 30px;
+     }
+
+
+     .NavDark {
+          width: 650px;
+          height: 40px;
+     }
+     .NavAboutDark { 
+          width: 650px;
+          height: 40px; 
+     }
+     
+     .buttonNavDark { 
+          width: 70px;
+          height: 30px;
+     }
+       
+
+}
 
 
 
+/*////////////// IPAD AIR ////////////////////*/
+@media screen and (max-width: 820px) { 
+     .Nav {
+          width: 650px;
+          height: 40px;
+     }
+     .NavAbout { 
+          width: 350px;
+          height: 55px;    
+     }
+     
+     .buttonNav { 
+          width: 70px;
+          height: 30px;
+     }
 
 
+     .NavDark {
+          width: 650px;
+          height: 40px;
+     }
+     .NavAboutDark { 
+          width: 650px;
+          height: 40px; 
+     }
+     
+     .buttonNavDark { 
+          width: 70px;
+          height: 30px;
+     }
+       
+
+}
+
+@media screen and (max-width: 650px) { 
+     .Nav {
+          width: 450px;
+          height: 40px;
+     }
+     .NavAbout { 
+          width: 350px;
+          height: 55px;    
+     }
+     
+     .buttonNav { 
+          width: 70px;
+          height: 30px;
+     }
+
+
+     .NavDark {
+          width: 450px;
+          height: 40px;
+     }
+     .NavAboutDark { 
+          width: 650px;
+          height: 40px; 
+     }
+     
+     .buttonNavDark { 
+          width: 70px;
+          height: 30px;
+     }
+       
+
+} 
+
+
+/*////////////// SUFARCE DUO ////////////////////*/
+@media screen and (max-width: 540px) { 
+     .Nav {
+          width: 450px;
+          height: 40px;
+     }
+     .NavAbout { 
+          width: 350px;
+          height: 55px;    
+     }
+     
+     .buttonNav { 
+          width: 70px;
+          height: 30px;
+     }
+
+
+     .NavDark {
+          width: 450px;
+          height: 40px;
+     }
+     .NavAboutDark { 
+          width: 650px;
+          height: 40px; 
+     }
+     
+     .buttonNavDark { 
+          width: 70px;
+          height: 30px;
+     }
+       
+
+} 
 
   @media screen and (max-width: 485px) {
      .Nav {
           width: 350px;
-          height: 120px;
+          height: 40px;
      }
      .NavAbout { 
           width: 350px;
@@ -125,7 +256,7 @@
 
      .NavDark {
           width: 350px;
-          height: 120px;
+          height: 40px;
      }
      .NavAboutDark { 
           width: 350px;
@@ -145,7 +276,7 @@
  @media screen and (max-width: 406px) { 
      .Nav {
           width: 350px;
-          height: 120px;
+          height: 40px;
      }
      .NavAbout { 
           width: 350px;
@@ -161,7 +292,7 @@
 
      .NavDark {
           width: 350px;
-          height: 120px;
+          height: 40px;
      }
      .NavAboutDark { 
           width: 350px;

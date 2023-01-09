@@ -41,32 +41,32 @@ export default function Cards() {
 
     // personajes.splice(((pagina*4)),1).length == 0
     return (
-       <div className={styles.ContainerAll}>
+      //  <div className={styles.ContainerAll}>
 
          <div className={styles.containerImg}>
                   {        
            personajes.length > 0 && personajes.map((e, index) => {
              return (
-               <div key={index}>
+               <div className={styles.mejode} key={index}>
                   <Card pagina={pagina} personajes={personajes} prev={prev} name={e.name} species={e.species} gender={e.gender} image={e.image} id={e.id} />
                 </div>
               )
             }).splice(current, pages)
           }
          </div>
+         )
+         {/* </div> */}
          
-           <div className={styles.containerPag}>
+           {/* <div className={styles.containerPag}>
               <button className={ DarkMode ? styles.buttonPag : styles.buttonPagDark} disabled={true}> {personajes.length} </button>
               <button className={ DarkMode ? styles.buttonPag : styles.buttonPagDark} onClick={()=> reset()}  disabled={pagina === 1}>PAGE 1</button>
               <button className={ DarkMode ? styles.buttonPag : styles.buttonPagDark} onClick={()=> prev()}  disabled={pagina === 1}>PREV</button>
               <button className={ DarkMode ? styles.buttonPag : styles.buttonPagDark} disabled={true}>{pagina}</button>                           
               <button className={ DarkMode ? styles.buttonPag : styles.buttonPagDark} onClick={() => next()} disabled={pagina == Math.ceil(personajes.length / 4) || personajes.length === 0 }>NEXT</button>          
-            </div>
+            </div> */}
 
             
-          </div>
 
-    )
 
 }
 
